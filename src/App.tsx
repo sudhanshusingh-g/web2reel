@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { LandingPage } from "./pages/LandingPage";
 
 function App() {
   return (
-    <div className='bg-amber-300 p-3 text-rose-500'>App</div>
-  )
+    <div className="min-h-screen bg-white">
+      <LandingPage />
+    </div>
+  );
 }
 
-export default App
+export default App;
